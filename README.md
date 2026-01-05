@@ -63,15 +63,6 @@ config/custom_components/
 
 #### Frontend
 
-Másold a `www/tvheadend-epg-card` könyvtárat ide:
+Használd a TVHeadend-EPG-Card tárolót az EPG kártya hozzáadásához:
 
-config/www/
-
-
-Majd add hozzá a Lovelace resource-hoz:
-
-```yaml
-/resources:
-  - url: /local/tvheadend-epg-card/tvheadend-epg-card.js
-    type: module
-```
+https://github.com/rhetesi/tvheadend-epg-card
